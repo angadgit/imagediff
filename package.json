@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "convert-base64-to-image": "^0.0.16",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "jimp": "^0.22.4",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tesseract.js": "^4.0.2"
   }
 }
