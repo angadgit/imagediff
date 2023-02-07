@@ -3,9 +3,9 @@ import { converBase64ToImage } from "convert-base64-to-image";
 import Tesseract from "tesseract.js";
 
 const handler = async (req, res) => {
-  console.log(req.body);
+//   console.log(req.body.title);
   if (req.method == "POST") {
-    if (req.body.img !== null) {
+    if (req.body.img) {
       const base64 = req.body?.img;
       const pathToSaveImage = "./image.png";
 
